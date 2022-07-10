@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-section{
+    background-image: url(images/PSX_20220629_162642.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 200px;
+}
+
+.top-content{
+    padding: 200px;
+    color: #124A65;
+}
+
+.top-content h1{
+    font-size: 60px;
+}
+
+.top-content h3{
+    font-size: 30px;
+}
+
+.top-content a{
+    text-decoration: none;
+    background-color: #124A65;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* middle section1 */
+
+.middle-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.zakat-content{
+    margin-left: 2%;
+    width: 50%;
+    color: #274B87;
+}
+
+.zakat-content h1{
+    font-size: 50px;
+}
+
+.allah-said{
+    font-weight: 600;
+    padding-left: 20px;
+    border-left: 3px solid #274B87;
+}
+
+.zakat-content a{
+    text-decoration: none;
+    background-color: #274B87;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.zakat-image{
+    width: 50%;
+}
+
+.zakat-image img{
+    width: 100%;
+}
+
+/* .middle-section2 */
+
+#qurbani-content{
+    color: #326A18;
+    margin-right: 2%;
+}
+
+#qurbani-content a{
+    background-color: #326A18;
+}
+
+/* donate kindness */
+
+#kindness-content{
+    color: #915f4b;
+}
+
+#kindness-content a{
+    background-color: #915f4b;
+}
+
+/* lets change */
+
+.lets-change{
+    margin: 150px 0 200px 0;
+}
+
+.lets-change h1{
+    text-align: center;
+    color: #274B87;
+}
+
+#change-heading{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.lets-change a{
+    text-decoration: none;
+    background-color: #274B87;
+    color: aliceblue;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.bring-change{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.general-fund{
+    width: 30%;
+    background-color: azure;
+}
+
+.general-fund img{
+    width: 100%;
+}
+
+.zakat-fund{
+    width: 30%;
+    background-color: azure;
+}
+
+.zakat-fund img{
+    width: 100%;
+}
+
+.donate-qurbani{
+    width: 30%;
+    background-color: azure;
+}
+
+.donate-qurbani img{
+    width: 100%;
+}
+
+/* subcribe form */
+
+.subscribe-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 150px  200px 150px;
+    background-color: azure;
+    padding: 20px 40px;
+}
+
+.email-heading{
+    color: #274B87;
+    font-size: 20px;
+}
+
+.email-form{
+    border: 2px solid #274B87;
+    margin-left: 20px;
+}
+
+.email-form input{
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: azure;
+    outline: none;
+}
+
+.email-form button{
+    font-size: 20px;
+    padding: 11px 15px;
+    background-color: #274B87;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+/* footer section */
+
+footer{
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    color: white;
+    background-color: #274B87;
+    padding: 50px;
+}
