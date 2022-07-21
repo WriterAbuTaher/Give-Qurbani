@@ -1,186 +1,194 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-.top-section{
+.top-section {
     background-image: url(images/PSX_20220629_162642.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
-    margin-bottom: 200px;
+    height: 100vh;
+    margin-bottom: 10rem;
 }
 
-.top-content{
-    padding: 200px;
+.top-content {
+    font-size: 2.5rem;
+    padding: 3em;
     color: #124A65;
 }
 
-.top-content h1{
-    font-size: 60px;
-}
-
-.top-content h3{
-    font-size: 30px;
-}
-
-.top-content a{
+.top-content a {
     text-decoration: none;
     background-color: #124A65;
     color: aliceblue;
-    padding: 15px;
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 2rem;
+    padding: .25em .5em;
+    border-radius: .2em;
 }
 
-/* middle section1 */
+/* middle section */
 
-.middle-section{
+.middle-section {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 1.5rem;
+
 }
 
 /* zakat */
 
-.zakat-content{
-    margin-left: 2%;
-    width: 50%;
+.zakat-section {
+    flex-direction: column-reverse;
+}
+
+.zakat-content {
     color: #274B87;
 }
 
-.zakat-content h1{
-    font-size: 50px;
+.zakat-content h1 {
+    font-size: 3rem;
 }
 
-.allah-said{
+.allah-said {
     font-weight: 600;
-    padding-left: 20px;
+    padding-left: 1rem;
     border-left: 3px solid #274B87;
 }
 
-.zakat-content a{
+.zakat-content a {
     text-decoration: none;
     background-color: #274B87;
     color: aliceblue;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 10px;
+    font-size: 1.25rem;
+    padding: .5em 1em;
+    border-radius: .5em;
 }
 
-.zakat-image{
-    width: 50%;
-}
-
-.zakat-image img{
+.zakat-image img {
     width: 100%;
 }
 
 /* qurbani */
 
-#qurbani-content{
-    color: #326A18;
-    margin-right: 2%;
-
+.qurbani-section {
+    margin-bottom: 10vh;
 }
 
-#qurbani-content a{
+#qurbani-content {
+    color: #326A18;
+}
+
+#qurbani-content a {
     background-color: #326A18;
 }
 
-/* donate kindness */
+/* kindness */
 
-#kindness-content{
+.kindness-section {
+    flex-direction: column-reverse;
+    margin-bottom: 10rem;
+}
+
+#kindness-content {
     color: #915f4b;
 }
 
-#kindness-content a{
+#kindness-content a {
     background-color: #915f4b;
 }
 
+
 /* lets change */
 
-.lets-change{
-    margin: 150px 0 200px 0;
+.lets-change {
+    margin-bottom: 20vh;
 }
 
-.lets-change h1{
+.lets-change h1 {
     text-align: center;
     color: #274B87;
 }
 
-#change-heading{
-    font-size: 50px;
-    margin-bottom: 50px;
+#change-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
-.lets-change a{
+.lets-change a {
     text-decoration: none;
     background-color: #274B87;
     color: aliceblue;
-    padding: 8px;
     font-size: 16px;
+    padding: 8px;
     border-radius: 4px;
 }
 
-.bring-change{
+.bring-change {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 1.5rem;
 }
 
-.general-fund{
-    width: 30%;
+.general-fund, .zakat-fund, .qurbani-fund {
+    /* width: 30%; */
     background-color: azure;
+    padding: 1rem;
 }
 
-.general-fund img{
+.general-fund img {
     width: 100%;
 }
 
-.zakat-fund{
-    width: 30%;
-    background-color: azure;
+.zakat-fund {
+    /* width: 30%; */
+    /* background-color: azure; */
 }
 
-.zakat-fund img{
+.zakat-fund img {
     width: 100%;
 }
 
-.donate-qurbani{
-    width: 30%;
-    background-color: azure;
+.qurbani-fund {
+    /* width: 30%; */
+    /* background-color: azure; */
 }
 
-.donate-qurbani img{
+.qurbani-fund img {
     width: 100%;
 }
 
 /* subcribe form */
 
-.subscribe-form{
+.subscribe-form {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    margin: 100px 150px  200px 150px;
+    width: 90%;
+    margin: 5rem auto;
     background-color: azure;
-    padding: 20px 40px;
+    padding: 20px 0 40px 0;
 }
 
-.email-heading{
+.email-heading {
     color: #274B87;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
-.email-form{
+.email-form {
     border: 2px solid #274B87;
-    margin-left: 20px;
+    display: flex;
 }
 
-.email-form input{
+.email-form input {
     font-size: 20px;
     padding: 10px 15px;
     border: none;
@@ -188,23 +196,50 @@ body{
     outline: none;
 }
 
-.email-form button{
+.email-form button {
     font-size: 20px;
     padding: 11px 15px;
     background-color: #274B87;
     border: none;
     color: white;
     cursor: pointer;
-    
+
 }
 
 /* footer section */
 
-footer{
+footer {
     font-size: 20px;
     font-family: 'Lobster Two', cursive;
     text-align: center;
     color: white;
     background-color: #274B87;
     padding: 50px;
+}
+
+
+@media screen and (min-width: 800px) {
+    .middle-section {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .zakat-content {
+        width: 50%;
+    }
+
+    .zakat-image img {
+        width: 100%;
+    }
+
+    .bring-change {
+        flex-direction: row;
+    }
+
+    .subscribe-form {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
 }
