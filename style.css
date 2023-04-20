@@ -38,7 +38,6 @@ body {
     justify-content: center;
     gap: 2rem;
     margin: 0 1.5rem;
-
 }
 
 /* zakat */
@@ -138,8 +137,9 @@ body {
     margin: 0 1.5rem;
 }
 
-.general-fund, .zakat-fund, .qurbani-fund {
-    /* width: 30%; */
+.general-fund,
+.zakat-fund,
+.qurbani-fund {
     background-color: azure;
     padding: 1rem;
 }
@@ -148,18 +148,8 @@ body {
     width: 100%;
 }
 
-.zakat-fund {
-    /* width: 30%; */
-    /* background-color: azure; */
-}
-
 .zakat-fund img {
     width: 100%;
-}
-
-.qurbani-fund {
-    /* width: 30%; */
-    /* background-color: azure; */
 }
 
 .qurbani-fund img {
